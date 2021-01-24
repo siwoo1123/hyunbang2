@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>조선현방 버튼테스트</title>
+</head>
+<body>
+    <button class="map_button" onclick="hi()"></button>
+</body>
+<style>
+    .map_button {
+        background: url("button_map.jpg");
+        cursor: pointer;
+        width: 400px;
+        height: 200px;
+    }
+</style>
+<script>
+    function hi() {
+        console.log(document.querySelector(".map_button"));
+        alert(document.querySelector(".map_button"));
+    }
+</script>
+</html>
